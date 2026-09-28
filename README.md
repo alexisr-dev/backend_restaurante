@@ -504,10 +504,4 @@ Ejecuta 38 pruebas (verificadas: todas pasan). Necesitan PostgreSQL accesible co
 - **Sin CI** y sin pruebas dedicadas para la auditoría, los comandos de demo ni el cambio de contraseña.
 - **Docker y archivos estáticos:** la imagen no ejecuta `collectstatic` ni incluye un servidor de estáticos, por lo que los estáticos de Django Admin no se sirven con `DEBUG = False`.
 
-<!-- TODO: añadir capturas o enlace a una demo desplegada (por ejemplo, Django Admin o respuestas de la API) cuando estén disponibles. -->
 
-## Autor y licencia
-
-<!-- TODO: añadir nombre del autor y enlaces de contacto (GitHub, LinkedIn). -->
-
-Proyecto de portafolio. Aún no se ha definido una licencia (no hay archivo `LICENSE` en el repositorio).
