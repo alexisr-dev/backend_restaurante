@@ -1,0 +1,25 @@
+# Entorno: se versiona la plantilla, nunca el archivo real ni variantes locales
+.env
+.env.*
+!.env.example
+
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Django
+staticfiles/
+media/
+db.sqlite3
+*.log
+
+# Editores y sistema
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,34 @@
+# Nota: el build real de este servicio (docker-compose.yml, en la raiz del
+# monorepo) usa como contexto la raiz del proyecto, no esta carpeta, porque
+# el Dockerfile necesita copiar ../schema.sql. Para ese build manda el
+# .dockerignore de la raiz. Este archivo cubre un build futuro que use
+# backend_restaurante/ como contexto propio (por ejemplo, si se publica
+# como repositorio independiente).
+
+# Entorno: nunca debe entrar a la imagen
+.env
+.env.*
+!.env.example
+
+# Entorno virtual y cachés de Python (se reinstalan con requirements.txt)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Django
+staticfiles/
+media/
+db.sqlite3
+*.log
+
+# Control de versiones
+.git
+.gitignore
+
+# Editores y sistema
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
