@@ -503,5 +503,3 @@ Ejecuta 38 pruebas (verificadas: todas pasan). Necesitan PostgreSQL accesible co
 - **Sin documentación OpenAPI/Swagger:** esta sección de API es la referencia.
 - **Sin CI** y sin pruebas dedicadas para la auditoría, los comandos de demo ni el cambio de contraseña.
 - **Docker y archivos estáticos:** la imagen no ejecuta `collectstatic` ni incluye un servidor de estáticos, por lo que los estáticos de Django Admin no se sirven con `DEBUG = False`.
-
-
